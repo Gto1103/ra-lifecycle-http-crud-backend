@@ -4,18 +4,20 @@
 	"description": "server for homework ra-lifecycle-http-crud",
 	"main": "server.js",
 	"scripts": {
-	  "start": "node server.js"
+		"prestart": "npm install",
+		"start": "node server.js",
+		"watch": "nodemon -w server.js"
 	},
 	"author": "Netology, Gto1103",
 	"license": "ISC",
 	"repository": "https://github.com/Gto1103/ra-lifecycle-http-crud-backend",
 	"engines": {
-	  "node": ">=16.0.0"
+		"node": ">=16.0.0"
 	},
-	
 	"dependencies": {
-	  "body-parser": "1.20.2",
-	  "cors": "2.8.5",
-	  "express": "4.18.2"
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"nodemon": "^2.0.22"
 	}
- }
+}

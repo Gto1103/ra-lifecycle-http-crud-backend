@@ -12,7 +12,7 @@
 	"license": "ISC",
 	"repository": "https://github.com/Gto1103/ra-lifecycle-http-crud-backend",
 	"engines": {
-		"node": ">=16.0.0"
+		"node": "16.X"
 	},
 	"dependencies": {
 		"body-parser": "^1.20.2",

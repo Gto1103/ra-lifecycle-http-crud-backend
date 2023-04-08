@@ -1,17 +1,18 @@
 {
-	"name": "backend",
+	"name": "ra-lifecycle-http-crud-backend",
 	"version": "1.0.0",
-	"description": "",
+	"description": "server for homework ra-lifecycle-http-crud",
 	"main": "server.js",
 	"scripts": {
 	  "start": "node server.js"
 	},
-	"author": "Netology",
+	"author": "Netology, Gto1103",
 	"license": "ISC",
+	"repository": "https://github.com/Gto1103/ra-lifecycle-http-crud-backend",
 	"engines": {
 	  "node": ">=16.0.0"
 	},
-	"type": "module",
+	
 	"dependencies": {
 	  "body-parser": "1.20.2",
 	  "cors": "2.8.5",

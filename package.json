@@ -11,7 +11,7 @@
 	"license": "ISC",
 	"repository": "https://github.com/Gto1103/ra-lifecycle-http-crud-backend",
 	"engines": {
-		"node": "16.X"
+		"node": "9.X"
 	},
 	"type": "module",
 	"dependencies": {
